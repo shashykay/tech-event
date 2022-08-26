@@ -1,0 +1,24 @@
+*{box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+border: 0px;}
+.container-1{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+.container-1 ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container-1 ul li{
+    width: 100%;
+    margin: 25px;
+    padding: 2px;
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 300px;
+}
