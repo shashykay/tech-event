@@ -1,0 +1,50 @@
+*{box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+border: 0px;}
+.container{
+    text-align: center;
+
+    padding: 15px;
+    margin: 15px;
+    border: 15px;
+    display: inline;
+    position: absolute;
+    font: 300; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    font-weight: bold;
+    font-size: 21px;
+    padding: 10px;
+}
+input[type=text],input[type=radio], input[type=date],input[type=tel]{
+    padding: 15px;
+    margin: 30px;
+    background-color: rgb(220, 220, 227);
+    border: none;
+}
+#btn{
+    margin: 40px;
+}
+button{
+    margin: 10px;
+    color: #fff;
+    background-color: rgb(72, 72, 244);
+    padding: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+#btn{
+    padding: 5px;
+    width: 150px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 6px 4px;
+    font-size: 8px;
+    text-transform: uppercase;
+}
+#btn:hover, #btn:focus, #btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

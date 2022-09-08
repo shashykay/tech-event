@@ -14,11 +14,12 @@
     margin: 25px;
     padding: 2px;
     text-decoration: none;
+    font-size: smaller;
 }
 .logo{
     float: left;
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 #sidebar1{
     float: right;
@@ -41,9 +42,9 @@
     font-size: small;
     
 }
-#btn{
-    padding: 5px;
-    width: 20%;
+#btn-info{
+    padding: 15px;
+    width: 160px;
     background-color: rgb(4, 41, 190);
     display: inline-block;
     cursor: pointer;
@@ -68,6 +69,30 @@
 .buttons{
     margin: 0 auto;
     width: 70%;
-    font-size: larger;
+    font-size: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-3 p{
+    display: inline-block;
+    width: 0 auto;
+}
+.container-4{
+    text-align: center;
+    font-size: larger;
+}
+ #btn{
+    padding: 15px;
+    width: 160px;
+    background-color: rgb(4, 41, 190);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 6px 4px;
+    font-size: 10px;text-transform: uppercase;
+    cursor: pointer;
+}
+#btn:hover, #btn:focus, #btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
